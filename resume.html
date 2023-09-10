@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <header>
+        <h1>Resume Builder</h1>
+    </header>
+    <section class="form-section">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="you@example.com">
+
+        <label for="phone Number"> Phone Number </label>
+        <input type="text" id="Phone" placeholder="Phone Number">
+
+        <label for="education">Education:</label>
+        <textarea id="education" placeholder="Your educational background"></textarea>
+
+        <label for="experience">Experience:</label>
+        <textarea id="experience" placeholder="Your work experience"></textarea>
+
+
+
+        <label for="summary">Summary:</label>
+        <textarea id="summary" placeholder="A brief summary about yourself"></textarea>
+
+        <button onclick="generateResume()">Generate Resume</button>
+    </section>
+
+    <section class="resume-section" id="resume">
+        <!-- Generated resume content will appear here -->
+    </section>
+
+    <script src="java.js"></script>
+</body>
+</html>
